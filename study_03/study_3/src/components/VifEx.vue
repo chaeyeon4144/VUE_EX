@@ -18,7 +18,7 @@ const selectDate = ref("");
 <template>
   <div>
     <!-- v-if v-show -->
-    <h2>v-if v-show</h2>
+    <h1>v-if v-show</h1>
     <!-- 이고 아니고 자체가 토글 기능 -->
     <button @click="isVisible = !isVisible">토글</button>
     <p v-if="isVisible">
