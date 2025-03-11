@@ -5,12 +5,13 @@ import Ex_03 from "./components/Ex_03.vue";
 </script>
 
 <template>
-  <div>
+  <div class="wrap">
+    <Ex_03 />
     <Ex_01 />
     <hr />
     <Ex_02 />
     <hr />
-    <Ex_03 />
+    
   </div>
 </template>
 
