@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.inner {
+  max-width: 1280px;
+  margin: auto;
+  
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
