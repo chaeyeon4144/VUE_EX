@@ -1,6 +1,7 @@
 <script setup>
 import Form_Ex from "./components/Form_Ex.vue";
 import Reservation from "./components/Reservation.vue";
+import inMounted from "./components/inMounted.vue";
 import { ref } from "vue";
 const currentPage = ref("");
 const showPage = (page) => {
@@ -15,9 +16,11 @@ const showPage = (page) => {
   <div class="btns">
     <button @click="showPage('Form_Ex')">폼예제</button>
     <button @click="showPage('Reservation')">예약신청</button>
+    <button @click="showPage('inMounted')">onMounted()예제</button>
   </div>
   <Form_Ex v-if="currentPage === 'Form_Ex'" />
   <Reservation v-if="currentPage === 'Reservation'" />
+  <inMounted v-if="currentPage === 'inMounted'" />
 </template>
 
 <style scoped>
