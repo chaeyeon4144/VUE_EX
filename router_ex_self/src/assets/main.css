@@ -1,0 +1,14 @@
+@import './base.css';
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #86b1de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #86b1de;
+}
