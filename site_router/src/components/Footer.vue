@@ -1,0 +1,16 @@
+<script setup></script>
+<template>
+    <footer>
+      <p>&copy; 2025 쇼핑몰</p>
+    </footer>
+  </template>
+  
+  <style scoped>
+  footer {
+    background: #633bad;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+  }
+  </style>
