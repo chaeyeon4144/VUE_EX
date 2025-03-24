@@ -10,3 +10,13 @@ main {
   margin: auto;
   font-size: 20px;
 }
+button {
+  padding: 10px 20px;
+  background: #9d9dd2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+

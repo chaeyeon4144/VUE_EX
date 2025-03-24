@@ -1,6 +1,8 @@
 <script setup>
 import { computed, ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
+import Tab from "@/components/Tab.vue";
+
 const route = useRoute();
 const router = useRouter();
 // useRouter()
@@ -147,6 +149,8 @@ const confirmBtn = () => {
         </div>
       </div>
     </div>
+    <!-- 탭 -->
+    <Tab />
   </div>
 </template>
 <style scoped>
